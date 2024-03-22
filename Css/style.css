@@ -1,0 +1,50 @@
+:root{
+    --main-color:#1E202B;
+    --main-text:#B2B3AE
+}
+
+
+.app-contaier{
+    /* background-image: url(../images/banner.png); */
+    /* background-image: url(../images/26143.jpg); */
+    /* background-image: url(../images/breathtaking-intense-lightning-storm-ocean-city-esposende-portugal.jpg);  */
+    background-image: url(../images/dark-thunderstorm-danger-electricity-spooky-landscape-generative-ai.jpg);
+
+    
+    background-position: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#search ,.navbar,.footer{
+    background-color: var(--main-color);
+}
+
+#search{
+    border-color: var(--main-color);
+}
+
+#search::placeholder{
+    color: var(--main-text)
+} 
+
+.nav-link,.navbar-brand,.Copyright{
+    color: var(--main-text) !important;
+    font-size: 20px !important;
+
+}
+
+.brands a ,.form-control{
+    color:var(--main-text) !important;
+
+
+}
+.transparent{
+    background-color: #0000005c !important;
+}
+
+
+.details SPAN{
+    font-size: 10px;
+}
