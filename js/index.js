@@ -84,11 +84,10 @@ startApp()
 searchInput.addEventListener('input', function () {
 
 
-    if (!searchInput.value) 
+    if (searchInput.value.length>=3) 
     {
-     return false
+        startApp(searchInput.value)
     }
-    startApp(searchInput.value)
    
 })
 
